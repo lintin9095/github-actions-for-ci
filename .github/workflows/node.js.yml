@@ -33,8 +33,6 @@ jobs:
     
     name: Node CI
 
-on: [push]
-
 jobs:
   build:
     build:
