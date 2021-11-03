@@ -35,7 +35,7 @@ jobs:
 
 jobs:
   build:
-    build:
+ 
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v2
@@ -45,7 +45,7 @@ jobs:
         npm run build
 
   test:
-    test:
+
   runs-on: ubuntu-latest
   strategy:
     matrix:
